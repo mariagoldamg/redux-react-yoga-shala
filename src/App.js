@@ -4,7 +4,6 @@ import About from "./About";
 import Contact from "./Contact";
 import ShopWithUs from "./ShopWithUs";
 import Schedule from "./Schedule";
-import YogaShalaLogo from "./YogaShalaLogo.png";
 import { useState } from "react";
 
 
