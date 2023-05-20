@@ -59,7 +59,7 @@ const dataShop = [
     id: 8,
     price: 35,
     img: 'yoga-pants-black-Small',
-    name: 'Classic Yoga Plants',
+    name: 'Classic Yoga Pants',
     category: 'CLOTHING'
 },
 

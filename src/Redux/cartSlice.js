@@ -16,6 +16,19 @@ export const cartSlice = createSlice({
                 totalPrice:action.payload.quantity * action.payload.item.price,
                 
             })
+        /* TRIED TO SHOW QUANTITY OF ITEMS ONA SHOPPING BAG    DIDN'T WORK
+       let itemIndex = state.cartItems.findIndex((el) => el.id === action.payload)
+       if (itemIndex>=0) {
+        state.cartItems[itemIndex].quantity +=1;       
+    }
+    else {
+        state.cartItems.push (action.payload)
+    }
+       
+     */  
+       
+       
+       
         },
 
         removeItem: (state,action)=>{

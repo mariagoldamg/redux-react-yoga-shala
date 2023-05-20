@@ -6,6 +6,12 @@ import { addItemToCart } from "../Redux/cartSlice";
 const Item =({item})=>{
     const [quantity,setQuantity] = useState(1);
 const dispatch = useDispatch();
+const [add,setAdd] = useState(true);
+const btnText = add ? "Add to Cart" : "Added";
+const handleClick =()=>{
+    dispatch(addItemToCart({item,quantity}));
+    setAdd(false)
+}
     return (
         <div>
             <img alt="shop" src = {`${item.img}.jpeg`}/>
@@ -15,7 +21,7 @@ const dispatch = useDispatch();
             <p> ${ item.price } </p>
             <ChangeQuantity quantity={quantity} setQuantity ={setQuantity}/>
             <br></br>
-            <button className="addToCart" onClick={()=> dispatch(addItemToCart({item,quantity}))}>Add to Cart</button>
+            <button className="addToCart" onClick={handleClick}>{btnText}</button>
 
             </div>
         </div>

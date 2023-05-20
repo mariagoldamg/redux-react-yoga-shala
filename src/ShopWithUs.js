@@ -12,6 +12,7 @@ function ShopWithUs() {
       <div className='block'>
      <AllCategories/>
      <Cart/>
+     
      </div>
 
      <div className='block'>

@@ -14,20 +14,48 @@ code {
 
 
 nav {
-  background: #EAC7C7;
+  background: #F2D7D9; 
   display: flex;
-  justify-content: center;
-  padding:15px;
+
+}
+
+#brandName {
+  font-family:'Montserrat', sans-serif;
+  color: #748DA6; 
+  margin-top:18px;
+  margin-left:10px;
+  font-weight: bold;
+
+}
+#lotusLogoNav{
+  width:45px;
+  padding:10px 40px;
+  margin-top:0%;
+  padding:5px;
+  margin-left:15px
+
+
+}
+.brandName{
+  display: flex;
+  margin-right: 100px;
 }
 
 .link,.linkMobile {
   padding:10px 40px;
+  margin-top:5px;
   text-decoration: none;
-  color: #815B5B;
+  color: #748DA6;
   text-transform: uppercase;
   font-family: 'Noto Sans Syloti Nagri', sans-serif;
+  justify-content: center;
+  
+
 }
-.link,.linkMobile:hover {
+.link {
+  font-weight: bold;
+}
+.linkMobile:hover {
   font-weight: bold;
 }
 
@@ -43,7 +71,7 @@ nav {
   text-align: center;
 }
 body {
-  background-color: #FFDDD2;
+  background-color: #EEEEEE;
 }
 .block {
   margin-top:30px;
@@ -77,7 +105,7 @@ img {
   width:300px;
 } 
 
-h1,h2,h4,p,button,label {
+h1,h2,h4,h5,p,button,label {
   font-family: 'Noto Sans Syloti Nagri', sans-serif;
   color: #815B5B;
 }
@@ -139,12 +167,20 @@ h2 {
 .bagIcon{
   width:120px;
   margin-top:20px;
-
-
 }
 .bagIcon:hover{
   width:130px;
 }
+.bagIconnav{
+  width: 40px;
+  margin-top:-5px;
+  justify-content: end;
+}
+.bagIconPosition{
+  display: flex;
+}
+
+
 .binIcon{
   width: 20px;
   margin-top:20px;
@@ -391,7 +427,47 @@ ul {
 .bars{
   display: none;
 }
+
+.example {
+  font-size: small;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  padding: 15px;
+  margin-bottom: -20px;
+}
+.editIcon {
+  display: flex;
+}
+
+.inputIcon {
+ width:50px;
+  color:#815B5B;
+  margin-top: -10px;
+  
+}
+.inputIcon:hover{
+color:red;
+}
+.myLog {
+  background-color: #DEBACE;
+  padding: 10px;
+  margin-top:10px;
+
+}
+
   @media all and (max-width: 500px){
+nav{
+  display: flex;
+  justify-content: center;
+}
+    .brandName{
+     
+    display:none;
+    }
 
 .yogaIcon{
   width:90px;
@@ -405,6 +481,7 @@ ul {
   margin-right:10px;
   margin-left:10px;
   text-align: center;
+
 }
 .blockContact{
   text-align: center;
@@ -419,22 +496,35 @@ display:none ;
 
 ul{
 display:block; 
-align-items:center;
+
 }
 
 li {
 list-style: none;
+align-items:center;
 padding:5px
+}
+
+#brandNameMobile{
+  font-family:'Montserrat', sans-serif;
+  color: #748DA6; 
+  font-weight: bold;
+  font-size: 20px;
+  padding:10px
+  
+  
 }
 .hamburgerIcon {
   display: flex;
 flex-direction: column;
 align-items: center;
+
 }
 .bars{
   display: block;
   width:40px;
-  margin-top: -30px;
+  height:40px;
+  margin-top:-40px;
 }
 .bars:hover {
   width:50px
