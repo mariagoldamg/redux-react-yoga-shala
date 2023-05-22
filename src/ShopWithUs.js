@@ -2,7 +2,7 @@
 import Cart from './Cart/Cart';
 import AllCategories from './Filter/AllCategories';
 import ShopItems from './ShopComponents/ShopItems';
-import Footer from './Footer';
+
 
 
 function ShopWithUs() {
