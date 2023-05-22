@@ -11,7 +11,9 @@ const ShopItems =()=>{
        .filter (item=>{ return selectedCategory === item.category;
        })
        .map((item,index)=><Item key={index} item={item}/>)}
-    </div>)
+    </div>
+    
+    )
 }
 
 export default ShopItems;

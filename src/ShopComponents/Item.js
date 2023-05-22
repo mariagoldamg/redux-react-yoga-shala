@@ -14,7 +14,7 @@ const handleClick =()=>{
 }
     return (
         <div className="itemContainer">
-            <img alt="shop" src = {`${item.img}.jpeg`}/>
+            <img className="shopImg" alt="shop" src = {`${item.img}.jpeg`}/>
             <div className="item">
                 <div className="itemName">
             <h4> { item.name } </h4></div>
