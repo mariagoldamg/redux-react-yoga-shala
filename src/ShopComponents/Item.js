@@ -13,7 +13,7 @@ const handleClick =()=>{
     setAdd(false)
 }
     return (
-        <div>
+        <div className="itemContainer">
             <img alt="shop" src = {`${item.img}.jpeg`}/>
             <div className="item">
                 <div className="itemName">

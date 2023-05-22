@@ -6,7 +6,7 @@ import { getSelectedCategory } from "../Redux/itemsSlice";
 const ShopItems =()=>{
     const selectedCategory = useSelector(getSelectedCategory);
 
-    return(<div>
+    return(<div className="productContainer">
        {dataShop
        .filter (item=>{ return selectedCategory === item.category;
        })

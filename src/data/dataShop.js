@@ -63,16 +63,9 @@ const dataShop = [
     category: 'CLOTHING'
 },
 
-{
-    id: 9,
-    price: 18,
-    img: 'palo-santo-Small',
-    name: 'Palo Santo',
-    category: 'MEDITATION'
-},
 
 {
-    id: 10,
+    id: 11,
     price: 32,
     img: 'yogawheel-Small',
     name: 'Yoga Wheel',
@@ -80,7 +73,7 @@ const dataShop = [
 },
 
 {
-    id: 11,
+    id: 12,
     price: 42,
     img: 'longsleeve-top-Small',
     name: 'Long Sleeve Yoga Top',
@@ -88,14 +81,14 @@ const dataShop = [
 },
 
 {
-    id: 12,
+    id: 13,
     price: 35,
     img: 'singing-bowl-large-Small',
     name: 'Tibetab Singing Bowl Large',
     category: 'MEDITATION'
 },
 {
-    id: 13,
+    id: 14,
     price: 22,
     img: 'yoga-bra-Small',
     name: 'Clasic Yoga Bra',
@@ -103,7 +96,7 @@ const dataShop = [
 },
 
 {
-    id: 14,
+    id: 15,
     price: 39,
     img: 'yoga-pants-Small',
     name: 'Hatha Yoga Pants',
@@ -111,14 +104,14 @@ const dataShop = [
 },
 
 {
-    id: 15,
+    id: 16,
     price: 32,
     img: 'yogabra-biege-Small',
     name: 'Hatha Yoga Bra',
     category: 'CLOTHING'
 },
 {
-    id: 16,
+    id: 17,
     price: 25,
     img: 'yoga-belt-cotton-Small',
     name: 'Cotton Yoga Belt',
@@ -126,21 +119,21 @@ const dataShop = [
 },
 
 {
-    id: 17,
+    id: 18,
     price: 51,
     img: 'yogamat-blue-Small',
     name: 'Ocean Yoga Mat',
     category: 'GEAR'
 },
 {
-    id: 18,
+    id: 19,
     price: 51,
     img: 'yogamat-black-Small',
     name: 'Classic Yoga Mat',
     category: 'GEAR'
 },
 {
-    id: 19,
+    id: 20,
     price: 51,
     img: 'yoga-mat-green-Small',
     name: 'Forest Yoga Mat',
@@ -148,7 +141,7 @@ const dataShop = [
 },
 
 {
-    id: 20,
+    id: 21,
     price: 31,
     img: 'sleeveless-top-Small',
     name: 'Sleeveless Yoga Top',
@@ -156,49 +149,49 @@ const dataShop = [
 },
 
 {
-    id: 21,
+    id: 22,
     price: 34,
     img: 'yoga-cycling-shorts-Small',
     name: 'Long Yoga Shorts',
     category: 'CLOTHING'
 },
 {
-    id: 22,
+    id: 23,
     price: 21,
     img: 'yoga-roller-Small',
     name: 'Yoga Roller',
     category: 'GEAR'
 },
 {
-    id: 23,
+    id: 24,
     price: 33,
     img: 'candle-and-sticks',
     name: 'Aroma Set',
     category: 'MEDIATAION'
 },
 {
-    id: 24,
+    id: 25,
     price: 51,
     img: 'yoga-mat-more-Small',
     name: 'Yin Yoga Mat',
     category: 'GEAR'
 },
 {
-    id: 25,
+    id: 26,
     price: 43,
     img: 'comfy-joggers-Small',
     name: 'Comfy Yoga Joggers',
     category: 'CLOTHING'
 },
 {
-    id: 26,
+    id: 27,
     price: 38,
     img: 'yogawheel-Small',
     name: 'Yoga Wheel',
     category: 'GEAR'
 },
 {
-    id: 27,
+    id: 28,
     price: 35,
     img: 'singing-bowl-little-Small',
     name: 'Tibetan Singing Bowl Small',
@@ -206,7 +199,7 @@ const dataShop = [
 },
 
 {
-    id: 28,
+    id: 29,
     price: 12,
     img: 'incenses-Small',
     name: 'Incense',
@@ -214,7 +207,7 @@ const dataShop = [
 },
 
 {
-    id: 29,
+    id: 30,
     price: 36,
     img: 'longsleeve-hoodie-Small',
     name: 'Yoga Hoodie',
@@ -222,7 +215,7 @@ const dataShop = [
 },
 
 {
-    id: 30,
+    id: 31,
     price: 11,
     img: 'candles-one-Small',
     name: 'Scented Candles Set',
@@ -230,7 +223,7 @@ const dataShop = [
 },
 
 {
-    id: 31,
+    id: 32,
     price: 50,
     img: 'gift-card',
     name: '$50 Yoga Shala Gift Card',
@@ -238,14 +231,14 @@ const dataShop = [
 },
 
 {
-    id: 32,
+    id: 33,
     price: 100,
     img: 'gift-card',
     name: '$100 Yoga Shala  Gift Card',
     category: 'GIFTCARD'
 },
 {
-    id: 33,
+    id: 34,
     price: 150,
     img: 'gift-card',
     name: '$150 Yoga Shala  Gift Card',

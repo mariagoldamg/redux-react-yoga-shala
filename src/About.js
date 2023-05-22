@@ -30,7 +30,7 @@ Whether you’re new to yoga or an experienced practioner, Yoga Shala can offer 
 
 <div className="blockAbout" >
     <p>
-   Drop-ins are welocme ($15/class), memberships are available at the studio.</p>
+   Drop-ins are welcome ($15/class), memberships are available at the studio.</p>
 </div>
 
 

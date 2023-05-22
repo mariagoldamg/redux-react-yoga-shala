@@ -15,7 +15,7 @@ const Footer = () => (
 </div>
   <div className="footer">
     <p className="footer">This is website is made for study purposes only</p>
-    <p className="footer name">by Maria Golda</p>
+    <p className="footer name">by Maria Melnikova</p>
   </div>
   </div>
 );

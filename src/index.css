@@ -11,8 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+body {
+  background-color: #EEEEEE;
+}
 
-
+/*---Nav*---*/
 nav {
   background: #F2D7D9; 
   display: flex;
@@ -33,8 +41,6 @@ nav {
   margin-top:0%;
   padding:5px;
   margin-left:15px
-
-
 }
 .brandName{
   display: flex;
@@ -65,20 +71,9 @@ nav {
   margin-right:30px
 }
 
-.App {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-}
-body {
-  background-color: #EEEEEE;
-}
-.block {
-  margin-top:30px;
-  background-color: rgba(219, 202, 202, 0.5);
-  padding: 20px;
-  width:300px;
-}
+
+/*---About---*/
+
 .blockAbout {
   margin-top:30px;
   display: flex;
@@ -87,16 +82,25 @@ body {
   margin-left: 250px;
 }
 .color{
-  background-color: rgba(219, 202, 202, 0.5);
-  width: 100%;
+  background-color:#F2D7D9;
+  width: 90%;
   padding: 20px;
   margin-top:30px;
+  margin-left:50px
 }
 
+/*---SHOP---*/
+.block{
+margin-left:20px
+}
+.productContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 img {
   width:300px;
   margin-top:30px
-
 }
 .item {
   display: flex;
@@ -107,18 +111,19 @@ img {
 
 h1,h2,h4,h5,p,button,label {
   font-family: 'Noto Sans Syloti Nagri', sans-serif;
-  color: #815B5B;
+  color: #748DA6;
+
 }
 label{
   font-weight: bold;
 }
 h3 {
-  background-color: #DEBACE;
+  background-color: #F2D7D9;
 margin-bottom:70px;
 font-size: large;
 }
 h4{
-  background-color: #DEBACE;
+  background-color: #F2D7D9;
   width:300px;
   text-align: center;
 }
@@ -127,21 +132,21 @@ p {
 }
 .quantity {
   margin:5px;
-  background-color: #FFDDD2;
-  border:1px solid #815B5B;
+  background-color: #F2D7D9;
+  border:1px solid #748DA6;
 }
 .quantity:hover {
-  border:2px solid #815B5B;
+  border:2px solid #748DA6;
   cursor:pointer;
   
 }
 .addToCart {
-  background-color: #DEBACE;
-  border:1px solid #815B5B;
-  box-shadow: #A7727D 3px 2px;
+  background-color: #F2D7D9;
+  border:1px solid #748DA6;
+  box-shadow: #9CB4CC 3px 2px;
 }
 .addToCart:hover{
-  border:2px solid #815B5B;
+  border:2px solid #748DA6;
   cursor:pointer
 }
 h2 {
@@ -154,11 +159,13 @@ h2 {
   cursor:pointer;
 }
 .categoryButton:hover {
-  background-color: #DEBACE;
+  background-color: #9CB4CC;
+  color:#F2D7D9
 }
 
 .categoryButtonSelected {
-  background-color: #DEBACE;
+  background-color: #9CB4CC;
+  color:#F2D7D9;
   width:300px;
   text-align: center;
   cursor:pointer;
@@ -180,14 +187,16 @@ h2 {
   display: flex;
 }
 
-
 .binIcon{
   width: 20px;
   margin-top:20px;
   margin-bottom: 20px
 }
+.binIcon:hover{
+  width:22px
+}
 .bagIcon,.binIcon:hover {
-  cursor:pointer
+  cursor:pointer;
 }
 .total {
   background-color: #DEBACE;
@@ -226,7 +235,7 @@ h2 {
  
   width: 300px;
   height: 600px;
-  background: #FFDDD2;
+  background: #EEEEEE;;
   color: white;
   z-index: 10;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
@@ -243,7 +252,7 @@ h2 {
 .heading {
   margin: 0;
   padding: 10px;
-  color:#815B5B;
+  color:#748DA6;
   font-weight: 500;
   font-size: 18px;
   text-align: center;
@@ -252,7 +261,7 @@ h2 {
 .modalContent {
   padding: 10px;
   font-size: 14px;
-  color:#815B5B;
+  color:#748DA6;
   text-align: center;
 }
 
@@ -275,8 +284,8 @@ h2 {
   padding: 4px 8px;
   border: none;
   font-size: 18px;
-  color: #FFDDD2;
-  background: #A7727D;
+  color: #F2D7D9;
+  background: #9CB4CC;
   transition: all 0.25s ease;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
   position: absolute;
@@ -297,19 +306,18 @@ h2 {
   cursor: pointer;
   font-weight: 500;
   padding: 11px 28px;
-
   font-size: 0.8rem;
   border: none;
-  color: #815B5B;
-  background: #DEBACE;
+  color: #748DA6;
+  background: #F2D7D9;
   transition: all 0.25s ease;
 }
 
 .deleteBtn:hover {
   box-shadow: 0 10px 20px -10px rgba(139, 93, 96, 0.6);
   transform: translateY(-5px);
-  background: #DEBACE;
-  border: 2px solid #815B5B
+  background: #F2D7D9;
+  border: 2px solid #748DA6;
 }
 
   .swal-button {
@@ -330,6 +338,7 @@ h2 {
   .cartPic {
     width:200px;
   }
+  /*---Schedule---*/
 
   .schedule{
     display: flex;
@@ -353,8 +362,11 @@ h2 {
     }
   .showMore {
     border:none;
-    background: #DEBACE;
+    background: #F2D7D9;
     cursor:pointer;
+  }
+  .showMore:hover{
+border:2px solid #748DA6;
   }
 
   .teacherContainer {
@@ -481,6 +493,10 @@ nav{
   margin-right:10px;
   margin-left:10px;
   text-align: center;
+}
+.color{
+  width:70%;
+
 
 }
 .blockContact{
