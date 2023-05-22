@@ -55,10 +55,11 @@ nav {
   text-transform: uppercase;
   font-family: 'Noto Sans Syloti Nagri', sans-serif;
   justify-content: center;
-  
-
 }
-.link {
+.link{
+  margin-left:22px
+}
+.link:hover {
   font-weight: bold;
 }
 .linkMobile:hover {
