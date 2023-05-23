@@ -401,20 +401,15 @@ h2 {
   }
 
   /*----SocialMedia---*/
+    /*---Footer---*/
   .icon {
     width:40px;
   }
   .containerSocial{
     display: flex;
     justify-content: center;
-    margin-right:30px
   }
-  .colorInsta{
-    width:50px;
-  }
-  
-  /*---Footer---*/
-
+ 
   .footer {
     display: flex;
     flex-direction: column;
@@ -472,16 +467,16 @@ input {
 }
 
 .inputIcon {
-  width:50px;
+  width:80px;
   color:#F2D7D9;
   margin-top: -10px;
   
 }
 .inputIcon:hover{
-color:#9CB4CC;
+color:#748DA6;
 }
 .myLog {
-  background-color: #F2D7D9;
+  background-color: #9CB4CC;
   padding: 10px;
   margin-top:10px;
 
