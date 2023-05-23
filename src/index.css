@@ -72,6 +72,17 @@ nav {
   margin-right:30px
 }
 
+ul {
+  display: none;
+ }
+ .hamburgerIcon {
+   display: none;
+   justify-content: space-between;
+ }
+ .bars{
+   display: none;
+ }
+
 
 /*---About---*/
 
@@ -233,7 +244,6 @@ h2 {
   cursor:pointer;
 }
 
-
 .centered {
   position: absolute;
   top: 50%;
@@ -242,7 +252,6 @@ h2 {
 }
 
 .modal {
- 
   width: 300px;
   height: 600px;
   background: #EEEEEE;;
@@ -256,7 +265,6 @@ h2 {
 .modalHeader {
   height: 50px;
   overflow: hidden;
-  
 }
 
 .heading {
@@ -376,7 +384,7 @@ h2 {
     cursor:pointer;
   }
   .showMore:hover{
-border:2px solid #748DA6;
+    border:2px solid #748DA6;
   }
 
   .teacherContainer {
@@ -392,9 +400,9 @@ border:2px solid #748DA6;
     justify-content: space-between;
   }
 
+  /*----SocialMedia---*/
   .icon {
     width:40px;
-   
   }
   .containerSocial{
     display: flex;
@@ -404,6 +412,9 @@ border:2px solid #748DA6;
   .colorInsta{
     width:50px;
   }
+  
+  /*---Footer---*/
+
   .footer {
     display: flex;
     flex-direction: column;
@@ -413,6 +424,9 @@ border:2px solid #748DA6;
   .name{
     margin-top:-10px;
   }
+
+  /*---Contact---*/
+
   .blockContact{
     display: flex;
     flex-direction: column;
@@ -439,16 +453,8 @@ border:2px solid #748DA6;
    flex-direction: column;
    align-items: center;
   }
-ul {
- display: none;
-}
-.hamburgerIcon {
-  display: none;
-  justify-content: space-between;
-}
-.bars{
-  display: none;
-}
+
+  /*---MyLogs---*/
 
 .example {
   font-size: small;
@@ -466,16 +472,16 @@ input {
 }
 
 .inputIcon {
- width:50px;
-  color:#815B5B;
+  width:50px;
+  color:#F2D7D9;
   margin-top: -10px;
   
 }
 .inputIcon:hover{
-color:red;
+color:#9CB4CC;
 }
 .myLog {
-  background-color: #DEBACE;
+  background-color: #F2D7D9;
   padding: 10px;
   margin-top:10px;
 
@@ -506,8 +512,6 @@ nav{
 }
 .color{
   width:70%;
-
-
 }
 .blockContact{
   text-align: center;
@@ -522,7 +526,6 @@ display:none ;
 
 ul{
 display:block; 
-
 }
 
 li {
@@ -536,9 +539,7 @@ padding:5px
   color: #748DA6; 
   font-weight: bold;
   font-size: 20px;
-  padding:10px
-  
-  
+  padding:10px  
 }
 .hamburgerIcon {
   display: flex;
