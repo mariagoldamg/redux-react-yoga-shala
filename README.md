@@ -1,5 +1,5 @@
 # Redux React Yoga Shala
-![cover](/yogaCover.png)
+![cover](./yogaCover.png)
 > Yoga App and On-line Shop allowing you to choose classes you like, purchase items from the store, treck your wellness progress, send requests to the studio amd log in to your account to see special offers.
 > Live demo [_here_](https://yogashala-mernstack-mariamelnikova.netlify.app/). <!-- If you have the project hosted somewhere, include the link here. -->
 
