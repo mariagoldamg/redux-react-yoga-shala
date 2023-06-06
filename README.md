@@ -40,15 +40,6 @@ List the ready features here:
 - Personal trecker (MongoDB)
 - Log In (Auth0)
 
-
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
-
-
 ## Project Status
 Project is: _complete_ . If you are no longer working on it, provide reasons why.
 
