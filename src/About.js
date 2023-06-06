@@ -6,6 +6,7 @@ import Footer from "./Footer";
 function About(){
 
     return (<div>
+    <div className="mainContainer">
         <div className="blockAbout">
 
 <img alt='logo' className="yogaIcon" src={YogaShalaLogo}/>
@@ -35,9 +36,11 @@ Whether you’re new to yoga or an experienced practioner, Yoga Shala can offer 
 
 
 
-<div>
-    <Footer/>
+
+ 
+
 </div>
+<Footer/>
 </div>
     )
 }

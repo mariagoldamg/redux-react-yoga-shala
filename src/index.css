@@ -115,8 +115,8 @@ margin-left:20px
   width:300px;
   height: 200px;
   margin-top:30px;
-  margin-left: 5px;
-  margin-right:5px;
+  margin-left: 30px;
+  margin-right:30px;
   
 }
 img {
@@ -127,13 +127,11 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:300px;
 } 
 
 h1,h2,h4,h5,p,button,label {
   font-family: 'Noto Sans Syloti Nagri', sans-serif;
   color: #748DA6;
-
 }
 label{
   font-weight: bold;
@@ -199,14 +197,6 @@ h2 {
 .bagIcon:hover{
   width:130px;
 }
-.bagIconnav{
-  width: 40px;
-  margin-top:-5px;
-  justify-content: end;
-}
-.bagIconPosition{
-  display: flex;
-}
 
 .binIcon{
   width: 20px;
@@ -224,7 +214,7 @@ h2 {
   padding:10px;
   border-radius: 50px;
   width:50px;
- border:2px solid black;
+  border:2px solid black;
   margin-left:110px;
   margin-top:-70px;
  
@@ -367,7 +357,7 @@ h2 {
     flex-direction: column;
     flex: wrap;
     width:250px;
-    margin-left:75px;
+    margin-left:145px;
     margin-top:10px;
   }
 
@@ -402,14 +392,17 @@ h2 {
 
   /*----SocialMedia---*/
     /*---Footer---*/
+
+    .alignFooter{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
   .icon {
     width:40px;
   }
-  .containerSocial{
-    display: flex;
-    justify-content: center;
-  }
- 
+
   .footer {
     display: flex;
     flex-direction: column;
@@ -479,22 +472,269 @@ color:#748DA6;
   background-color: #F2D7D9;
   padding: 10px;
   margin-top:10px;
-
 }
 
-  @media all and (max-width: 500px){
+
+
+
+
+  /*---Mobile---*/
+
+
+  @media all and (max-width: 900px){
+    nav{
+      display: flex;
+      justify-content: center;
+    }
+        .brandName{
+        display:none;
+        }
+    
+        /*--About--*/
+    
+    .mainContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .yogaIcon{
+      width:90px;
+      height:90px;
+      margin-right:0;
+    }
+    
+    .blockAbout{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right:10px;
+      margin-left:10px;
+      text-align: center;
+    }
+    .color{
+      width:80%;
+      margin-left:0;
+      margin-right:0;
+    }
+    .blockContact{
+      text-align: center;
+    }
+    .link {
+    display:none ;
+    }
+    .App {
+      display: flex;
+      flex-direction: column;
+    }
+    ul{
+    display:block; 
+    }
+    li {
+    list-style: none;
+    align-items:center;
+    padding:5px
+    }
+    
+    #brandNameMobile{
+      font-family:'Montserrat', sans-serif;
+      color: #748DA6; 
+      font-weight: bold;
+      font-size: 20px;
+      padding:10px  
+    }
+    .hamburgerIcon {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    .bars{
+      display: block;
+      width:40px;
+      height:40px;
+      margin-top:-40px;
+    }
+    .bars:hover {
+      width:50px
+    }
+    h1 {
+      font-size: 25px
+    }
+    p{
+      font-size: small;
+    }
+    .productContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .yogaBlock {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      width:250px;
+      margin-left:50px;
+      margin-right:50px;
+      margin-top:10px;
+    }
+    
+    .categories {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .total {
+      background-color: #DEBACE;
+      padding:10px;
+      border-radius: 50px;
+      width:50px;
+      border:2px solid black;
+      margin-left:360px;
+      margin-top:-70px;
+    }
+    .treckerInput{
+      width:300px
+    }
+      }
+
+      @media all and (max-width: 900px){
+        nav{
+          display: flex;
+          justify-content: center;
+        }
+            .brandName{
+            display:none;
+            }
+        
+            /*--About--*/
+        
+        .mainContainer{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .yogaIcon{
+          width:90px;
+          height:90px;
+          margin-right:0;
+        }
+        
+        .blockAbout{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-right:10px;
+          margin-left:10px;
+          text-align: center;
+        }
+        .color{
+          width:80%;
+          margin-left:0;
+          margin-right:0;
+        }
+        .blockContact{
+          text-align: center;
+        }
+        .link {
+        display:none ;
+        }
+        .App {
+          display: flex;
+          flex-direction: column;
+        }
+        ul{
+        display:block; 
+        }
+        li {
+        list-style: none;
+        align-items:center;
+        padding:5px
+        }
+        
+        #brandNameMobile{
+          font-family:'Montserrat', sans-serif;
+          color: #748DA6; 
+          font-weight: bold;
+          font-size: 20px;
+          padding:10px  
+        }
+        .hamburgerIcon {
+          display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        }
+        .bars{
+          display: block;
+          width:40px;
+          height:40px;
+          margin-top:-40px;
+        }
+        .bars:hover {
+          width:50px
+        }
+        h1 {
+          font-size: 25px
+        }
+        p{
+          font-size: small;
+        }
+        .productContainer{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        .yogaBlock {
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          width:250px;
+          margin-left:50px;
+          margin-right:50px;
+          margin-top:10px;
+        }
+        
+        .categories {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .total {
+          background-color: #DEBACE;
+          padding:10px;
+          border-radius: 50px;
+          width:50px;
+          border:2px solid black;
+          margin-left:335px;
+          margin-top:-70px;
+        }
+        .treckerInput{
+          width:300px
+        }
+          }
+
+  @media all and (max-width: 700px){
 nav{
   display: flex;
   justify-content: center;
 }
     .brandName{
-     
     display:none;
     }
 
+    /*--About--*/
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .yogaIcon{
   width:90px;
-  height:90px
+  height:90px;
+  margin-right:0;
 }
 
 .blockAbout{
@@ -506,7 +746,9 @@ nav{
   text-align: center;
 }
 .color{
-  width:70%;
+  width:80%;
+  margin-left:0;
+  margin-right:0;
 }
 .blockContact{
   text-align: center;
@@ -518,11 +760,9 @@ display:none ;
   display: flex;
   flex-direction: column;
 }
-
 ul{
 display:block; 
 }
-
 li {
 list-style: none;
 align-items:center;
@@ -551,4 +791,158 @@ align-items: center;
 .bars:hover {
   width:50px
 }
+h1 {
+  font-size: 25px
+}
+p{
+  font-size: small;
+}
+.productContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yogaBlock {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width:250px;
+  margin-left:50px;
+  margin-top:10px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.total {
+  background-color: #DEBACE;
+  padding:10px;
+  border-radius: 50px;
+  width:50px;
+  border:2px solid black;
+  margin-left:145px;
+  margin-top:-70px;
+}
+.treckerInput{
+  width:300px
+}
   }
+
+  @media all and (max-width: 500px){
+    nav{
+      display: flex;
+      justify-content: center;
+    }
+        .brandName{
+        display:none;
+        }
+    
+        /*--About--*/
+    
+    .mainContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .yogaIcon{
+      width:90px;
+      height:90px;
+      margin-right:0;
+    }
+    
+    .blockAbout{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right:10px;
+      margin-left:10px;
+      text-align: center;
+    }
+    .color{
+      width:80%;
+      margin-left:0;
+      margin-right:0;
+    }
+    .blockContact{
+      text-align: center;
+    }
+    .link {
+    display:none ;
+    }
+    .App {
+      display: flex;
+      flex-direction: column;
+    }
+    ul{
+    display:block; 
+    }
+    li {
+    list-style: none;
+    align-items:center;
+    padding:5px
+    }
+    
+    #brandNameMobile{
+      font-family:'Montserrat', sans-serif;
+      color: #748DA6; 
+      font-weight: bold;
+      font-size: 20px;
+      padding:10px  
+    }
+    .hamburgerIcon {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    .bars{
+      display: block;
+      width:40px;
+      height:40px;
+      margin-top:-40px;
+    }
+    .bars:hover {
+      width:50px
+    }
+    h1 {
+      font-size: 25px
+    }
+    p{
+      font-size: small;
+    }
+    .productContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .yogaBlock {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      width:250px;
+      margin-left:50px;
+      margin-top:10px;
+    }
+    
+    .categories {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .total {
+      background-color: #EEEEEE;
+      padding:10px;
+      border-radius: 50px;
+      width:50px;
+      border:none;
+      margin-left:150px;
+      margin-top:-70px;
+    }
+    .treckerInput{
+      width:300px
+    }
+      }

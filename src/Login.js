@@ -7,11 +7,10 @@ const Login = () => {
   return (
     !isAuthenticated&&(<div>
     <div className="blockAbout">
-<p>We have created a <span className="time"> Pesonal Wellness Trecker </span>for you to log all your activities and treck your physical and emotional progress during practices. You are welcome to log all your activities in our studio and outside of it.</p>
+<p> Please log in to accesss our <span className="time">Retreat Updates and Early Bird Discounts. </span></p>
     </div>
-    <div className="blockAbout">
-<p>To access the trecker please log in.</p>
-    </div>
+
+
     <div className="blockAbout">
   <button className="deleteBtn" onClick={() => loginWithRedirect()}>Log In</button>
   </div>

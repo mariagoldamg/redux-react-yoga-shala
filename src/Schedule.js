@@ -9,7 +9,7 @@ const Schedule = ()=>{
     return(<div>
 <div className="blockAbout">
 <img alt='logo'  className="yogaIcon" src={YogaShalaLogo}/>
-<h2>Yoga Shala Practices</h2>
+<h1>Yoga Shala Practices</h1>
 </div>
 
 

@@ -2,7 +2,7 @@
 import Filter from "./Filter";
 
 const AllCategories =()=>{
-    return(<div>
+    return(<div className="categories">
         <h2>Shop with YogaShala:</h2>
         {['CLOTHING','GEAR', 'MEDITATION', 'GIFTCARD']
         .map ((category,index)=> <Filter key={index} category={category}/>)}

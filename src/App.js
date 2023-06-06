@@ -7,6 +7,7 @@ import Schedule from "./Schedule";
 import { useState } from "react";
 import LotusLogoNav from './YogaShalaLogo.png'
 import YourAccount from "./YourAccount";
+import WellnessTrecker from "./WellnessTrecker";
 
 
 
@@ -16,7 +17,6 @@ function App() {
      //👇️ toggle shown state
     setShow(current => !current);
   }
-
 
     return (
       <div >
@@ -28,8 +28,10 @@ function App() {
     <Link to = '/about' className='link'>About Us</Link>
     <Link to = '/'className='link'>Shop</Link>
     <Link to = '/schedule'className='link'>Schedule</Link>
+    <Link to = '/trecker' className='link'>Trecker</Link>
     <Link to = '/contact'className='link'>Contact Us</Link>
-    <Link to = '/youraccount'className='link'>Your Account</Link>
+    <Link to = '/youraccount'className='link'>Log In</Link>
+
 
     
    
@@ -41,11 +43,12 @@ function App() {
         </div>
   {show && (    
 <ul className="mobileMenu">
-    <li> <Link to = '/about' className='linkMobile'>About</Link></li>
+    <li>  <Link to = '/about' className='linkMobile'>About</Link></li>
     <li>  <Link to = '/'className='linkMobile'>Shop</Link></li>
-    <li><Link to = '/schedule'className='linkMobile'>Schedule</Link></li>
-    <li><Link to = '/contact'className='linkMobile'>Contact</Link></li>
-    <li><Link to = '/youraccount'className='linkMobile'>Your Account</Link></li>
+    <li>  <Link to = '/schedule'className='linkMobile'>Schedule</Link></li>
+    <li>  <Link to = '/trecker' className='linkMobile'>Trecker</Link></li>
+    <li>  <Link to = '/contact'className='linkMobile'>Contact</Link></li>
+    <li>  <Link to = '/youraccount'className='linkMobile'>Log In</Link></li>
 </ul>)}
 </div>
   </nav>
@@ -54,6 +57,7 @@ function App() {
     <Route path = '/about' element = {<About/>}/>
     <Route path = '/' element = {<ShopWithUs/>}/>
     <Route path = '/schedule'element = {<Schedule/>}/>
+    <Route path = '/trecker' element = {<WellnessTrecker/>}/>
     <Route path = '/contact' element = {<Contact/>}/>
     <Route path = '/youraccount' element = {<YourAccount/>}/>
     
