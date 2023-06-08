@@ -9,7 +9,7 @@ const dataSliders = [
         with a focus on energy and breath. While it is a very physical practice,
         it also promotes mental clarity and inner peace.`,
     category: "experienced practioners",
-    days: "Monday/Wednesday/Friday",
+    days: "Monday/Wed/Friday",
     time: '7:30 AM'
     },
 
